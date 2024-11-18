@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+        <title>
+            Etichete HTML
+        </title>
+    </head>
+    <body>
+        <table>
+        <caption><b>Tag-uri HTML</b></caption>
+            <tr>
+                <th>Tag-uri</th>
+                <th>Descriere / Exemple</th>
+            </tr>
+            <tr>
+                <td>< p > ... < / p ></td>
+                <td> Textul unui paragraf</td>
+            </tr>
+            <tr>
+                <td>< h1 > ... < / h6 ></td>
+                <td> Titluri si subtitluri. "h1" este cel mai mare iar "h6" este cel mai mic. Are tag de inchidere.</td>
+            </tr>
+            <tr> 
+                <td>< ol > ... < /ol > <br> 
+                    < li > ... < /li > <br>
+                    < ul > ... < / ul ></td>
+                <td>Liste ordonate, liste neordonate, si elementele lor. <br>
+                    ex1:<br>
+                    < ol type="A" ><br>
+                    < li > Aiud < /li ><br>
+                    < li > Teius < /li ><br>
+                    < /ol ></td>
+            </tr>
+            <tr>
+                <td> < b >... < /b > </td>
+                <td>Text ingrosat. Are tag de inchidere. Ingroasa textul cuprins intre etichete.<br>
+                    Exemplu:<br>
+                    < p >Acesta este un text < b >ingrosat< /b >.< /p ></td>
+            </tr>
+            <tr>
+                <td> < a ... > ... < /a ></td>
+                <td>Anchor tag. Este folosit pentru a crea hyperlink-uri folosite in navigarea dintre pagini web. Are tag de inchidere.<br>
+                    Foloseste atribute precum  href  pentru a seta destinatia, sau target pentru a descrie cum se va deschide pagina/documentul specificat.<br>
+                    Exemplu:<br>
+                    < p > < a href = " https://ro.wikipedia.org/Franta " > Franta < /a > este a doua putere economica europeana si a cincea putere mondiala. < /p ></td>
+            </tr>
+            <tr>
+                <td>< table >< /table > <br>
+                    < th >< /th ><br>
+                    < tr > < /tr ><br>
+                    < td > < / td ><br>
+                    < caption >< /caption ></td>
+                <td>
+                    Tabel. Are tag de inchidere.<br>
+                    TH reprezinta capetele de tabela.<br>
+                    TR reprezinta randurile tabelei.<br>
+                    TD reprezinta coloanele tabelei.<br>
+                    Caption reprezinta titlul tabelei.<br>
+                    Exemplu:<br>
+                    < table ><br>
+                        < caption > Inventar fructe < /caption ><br>
+                            < tr ><br>
+                                < th > Fruct < /th ><br>
+                                < th > Cantitate < /th ><br>
+                            < /tr ><br>
+                            < tr ><br>
+                                < td > Mere < /td ><br>
+                                < td > 70 < /td ><br>
+                            < /tr ><br>
+                            < tr ><br>
+                                < td > Banane < /td > <br>
+                                < td > 30 < /td ><br>
+                            < /tr ><br>
+                    < /table ><br>
+                </td>
+            </tr>
+            <tr>
+                <td>< abbr >...< /abbr ></td>
+                <td>Abreviere. Are tag de inchidere.<br>
+                    Se foloseste pentru a marca abrevierile. Foloseste atributul "title" pentru a marca semnificatia abrevierii. Are ca efect afisarea semnificatiei abrevierii cand se face hover cu cursorul peste cuvantul abreviat.<br>
+                    Exemplu:<br>
+                    < abbr title= "World Health Organization" >WHO< /abbr > a fost fondata in anul 1948.</td>
+            </tr>
+            <tr>
+                <td>< audio ...> ... < /audio ><br>
+                    < source ... ></td>
+                <td>Tag-ul "audio" este folosit pentru inserarea si redarea fisierelor audio in pagina. Are tag de inchidere.<br>
+                    Tag-ul copil "source" este folosit pentru a indica sursa, locatia fisierului, si are atributele "src" (pentru indicarea sursei) si "type" (pentru indicarea tipului de fisier)<br>
+                    Cand sunt oferite mai multe surse pentru acelasi tag audio, browser-ul va afisa in pagina prima sursa gasita din lista.<br>
+                    Exemplu:<br>
+                    < audio controls ><br>
+                        < source src="/muzica/audio.ogg" type="audio/ogg"><br>
+                        < source src="muzica/audio.mp3" type="audio/mpeg"><br>
+                    < /audio ></td>
+            </tr>
+            <tr>
+                <td>< br ></td>
+                <td>Line break, nu are tag de inchidere.<br>
+                    Se foloseste pentru a trece la o linie noua. Cand browser-ul citeste acest tag, stie ca trebuie sa afiseze urmatoarea linie/urmatorul element cu un spatiu mai jos.<br>
+                    Exemplu:<br>
+                    Aceasta este < br > o linie noua.</td>
+            </tr>
+            <tr>
+                <td>
+                    < button ... >< /button >
+                </td>
+                <td>Eticheta de buton. Are tag de inchidere.<br>
+                    Este folosit pentru crearea unui buton.<br>
+                    Foloseste atribute precum "type" pentru a indica tipul de buton (button/reset/submit), tipul descrie comportamentul pe care il va avea butonul.<br>
+                    Ii poate fi asociata o valoare prin atributul "value", sau un nume prin atributul "name".<br>
+                    Exemplu:<br>
+                    < button type="button" >Apasa aici!< /button ><br>
+                    sau<br>
+                    < button type="reset"> Apasa aici pentru a reseta formularul!< /button ></td>
+            </tr>
+        </table>
+    </body>
+</html>
