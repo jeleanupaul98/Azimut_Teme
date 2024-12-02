@@ -15,7 +15,7 @@ body{
 
 .patrat:hover{
     margin-left: 150px;
-    transition: width 4s;
+    transition:  4s;
     transition-timing-function: linear;
 }
 
