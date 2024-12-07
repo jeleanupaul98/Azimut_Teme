@@ -1,0 +1,38 @@
+body{
+    margin: 20px;
+    background-color: darkseagreen;
+}
+
+.lista1{
+    color: darkred;
+    font-weight: bold;
+}
+
+.lista2{
+    color: forestgreen;
+    font-style: italic;
+}
+
+.lista1 li:nth-child(odd){
+    color: orangered;
+}
+
+.lista2 li:nth-child(odd){
+    color: olive;
+}
+
+.lista1 li:nth-child(1){
+    font-size: 20px;
+}
+
+.lista2 li:nth-child(1){
+    font-size: 20px;
+}
+
+.lista1 li:hover{
+    color: darkslateblue;
+}
+
+.lista2 li:hover{
+    color: darkslategray;
+}
