@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.container_list{
+    text-align: center;
+    font-family: "Averia Libre";
+    color: lightblue;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.lista li{
+    position: relative;
+    padding-left: 30px;
+}
+
+.lista li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('glob.png');
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+.lista li:active{
+    display: none;
+}
+
+.lista li:hover{
+    transform: scale(1.2); 
+    color: springgreen;
+
+}
+
+
+
